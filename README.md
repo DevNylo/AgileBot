@@ -13,7 +13,7 @@ Bot para o telegram que está sendo mantido e gerênciado pelo nosso time!
 
 ## Como usar
 
-  - Não façam Fork por enquanto, apenas faça um clone por HTTP e trabalhem diretamento no repositório, vocês possuem permissão para fazer commit e push.
+  - Façam Fork, ou apenas faça um clone por HTTP e trabalhem diretamento no repositório, vocês possuem permissão para fazer commit e push.
 
   - Instale a biblioteca do API BotTelegram com o comando:
 
