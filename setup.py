@@ -37,6 +37,6 @@ def responder(mensagem):
                            
 /D1 O que é SCRUM?
 
-/D2 O que são Metodologias Ágeis""")
+/D2 O que são Metodologias Ágeis?""")
 
 bot.polling() # MANTÉM O BOT SEMPRE ATIVO E RETORNA A CONVERSA DO USUÁRIO.
