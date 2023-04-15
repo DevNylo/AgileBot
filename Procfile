@@ -1,0 +1,1 @@
+release: python setup.py
