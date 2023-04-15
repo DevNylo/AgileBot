@@ -36,6 +36,7 @@ def responder(mensagem):
     bot.reply_to(mensagem, """Olá, estou aqui para te ajudar, selecione a opção relacionada a sua dúvida:"
                            
 /D1 O que é SCRUM?
+
 /D2 O que são Metodologias Ágeis""")
 
 bot.polling() # MANTÉM O BOT SEMPRE ATIVO E RETORNA A CONVERSA DO USUÁRIO.
