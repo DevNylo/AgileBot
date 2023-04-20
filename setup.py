@@ -19,7 +19,13 @@ def D2(mensagem):
 
 As metodologias ágeis são uma forma de acelerar entregas de um determinado projeto. Ela consiste no fracionamento de entregas para o cliente final em ciclos menores. Com isso, eventuais problemas podem ser corrigidos mais rapidamente e os planejamentos serem revistos com os métodos ágeis.""")
 
-
+@bot.message_handler(commands=['D3'])
+def D3(mensagem):
+    bot.send_message(mensagem.chat.id, """ O que é um Sprint?
+    
+    Sprint, no framework Scrum, é um período de tempo limitado a um mês ou menos, no qual uma versão incremental e usável de um produto é desenvolvida.
+    
+""")
 # TODAS AS NOSSAS FUNÇÕES DEVERÃO SER CRIADAS AQUI EM CIMA ^ #
 
 
@@ -39,6 +45,8 @@ def responder(mensagem):
 /D1 O que é SCRUM?
 
 /D2 O que são Metodologias Ágeis?
+
+/D3 O que é um Sprint?
 
 
 """)
