@@ -19,12 +19,6 @@ def D2(mensagem):
 
 As metodologias ágeis são uma forma de acelerar entregas de um determinado projeto. Ela consiste no fracionamento de entregas para o cliente final em ciclos menores. Com isso, eventuais problemas podem ser corrigidos mais rapidamente e os planejamentos serem revistos com os métodos ágeis.""")
 
-@bot.message_handler(commands=['D3'])
-def D3(mensagem):
-    bot.send_message(mensagem.chat.id, """ O que são Metodologias Ágeis?
-
-As metodologias ágeis são uma forma de acelerar entregas de um determinado projeto. Ela consiste no fracionamento de entregas para o cliente final em ciclos menores. Com isso, eventuais problemas podem ser corrigidos mais rapidamente e os planejamentos serem revistos com os métodos ágeis.""")
-
 
 # TODAS AS NOSSAS FUNÇÕES DEVERÃO SER CRIADAS AQUI EM CIMA ^ #
 
@@ -46,6 +40,7 @@ def responder(mensagem):
 
 /D2 O que são Metodologias Ágeis?
 
-/D3 QASDUAUSDUAS """)
+
+""")
 
 bot.polling() # MANTÉM O BOT SEMPRE ATIVO E RETORNA A CONVERSA DO USUÁRIO.
