@@ -1,4 +1,5 @@
 import telebot # BIBLIOTECA DO TELEGRAM
+from telebot import util
 BOT_TOKEN = "5799334689:AAHYCsDa3-Y3e93fnv-dooTWUu2Tb62m6gw" #!TOKEN
 bot = telebot.TeleBot(BOT_TOKEN) # CRIA E INICIALIZA O BOT.
 
@@ -7,17 +8,19 @@ bot = telebot.TeleBot(BOT_TOKEN) # CRIA E INICIALIZA O BOT.
 
 @bot.message_handler(commands = ['D1'])
 def D1 (mensagem):
-    print(mensagem) # AQUI ESTÃO AS INFORMAÇÕES DA MENSAGEM!
-    bot.send_message(mensagem.chat.id, """ O que é Scrum
-
-Scrum é um conjunto de boas práticas empregado no gerenciamento de projetos complexos, em que não se conhece todas as etapas ou necessidades focado nos membros da equipe, o Scrum torna os processos mais simples e claros, pois mantém registros visíveis sobre o andamento de todas as etapas. Assim, os participantes sabem em que fase o projeto está, o que já foi concluído e o que falta ser feito para a sua entrega. A metodologia também possibilita que produtos sejam apresentados em menor tempo, sem deixar de lado a qualidade. Ela é aplicada a partir de ciclos rápidos, chamados sprints, nos quais há um tempo determinado para que as atividades sejam concluídas – geralmente, entre duas e quatro semanas.""")
+    large_text = open("./texts/D1.txt", "rb").read()
+    splitted_text = util.split_string(large_text, 3000)
+    print(splitted_text)
+    for text in splitted_text:
+        bot.send_message(mensagem.chat.id, text)
 
 @bot.message_handler(commands = ['D2'])
 def D2 (mensagem):
-    bot.send_message(mensagem.chat.id, """ O que são Metodologias Ágeis?
-    
-As metodologias ágeis são uma forma de acelerar entregas de um determinado projeto. Ela consiste no fracionamento de entregas para o cliente final em ciclos menores. Com isso, eventuais problemas podem ser corrigidos mais rapidamente e os planejamentos serem revistos com os métodos ágeis.""")
-
+    large_text = open("./texts/D2.txt", "rb").read()
+    splitted_text = util.split_string(large_text, 3000)
+    print(splitted_text)
+    for text in splitted_text:
+        bot.send_message(mensagem.chat.id, text)
 
 # TODAS AS NOSSAS FUNÇÕES DEVERÃO SER CRIADAS AQUI EM CIMA ^ #
 

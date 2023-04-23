@@ -1,0 +1,3 @@
+O que é Scrum
+
+Scrum é um conjunto de boas práticas empregado no gerenciamento de projetos complexos, em que não se conhece todas as etapas ou necessidades focado nos membros da equipe, o Scrum torna os processos mais simples e claros, pois mantém registros visíveis sobre o andamento de todas as etapas. Assim, os participantes sabem em que fase o projeto está, o que já foi concluído e o que falta ser feito para a sua entrega. A metodologia também possibilita que produtos sejam apresentados em menor tempo, sem deixar de lado a qualidade. Ela é aplicada a partir de ciclos rápidos, chamados sprints, nos quais há um tempo determinado para que as atividades sejam concluídas – geralmente, entre duas e quatro semanas.
