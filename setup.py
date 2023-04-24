@@ -14,6 +14,7 @@ def D1 (mensagem):
     for text in splitted_text:
         bot.send_message(mensagem.chat.id, text)
 
+
 @bot.message_handler(commands = ['D2'])
 def D2 (mensagem):
     large_text = open("./texts/D2.txt", "rb").read()
@@ -22,6 +23,14 @@ def D2 (mensagem):
     for text in splitted_text:
         bot.send_message(mensagem.chat.id, text)
 
+
+@bot.message_handler(commands=['D3'])
+def D3(mensagem):
+    bot.send_message(mensagem.chat.id, """ O que é um Sprint?
+    
+    Sprint, no framework Scrum, é um período de tempo limitado a um mês ou menos, no qual uma versão incremental e usável de um produto é desenvolvida.
+    
+""")
 # TODAS AS NOSSAS FUNÇÕES DEVERÃO SER CRIADAS AQUI EM CIMA ^ #
 
 
@@ -40,6 +49,11 @@ def responder(mensagem):
                            
 /D1 O que é SCRUM?
 
-/D2 O que são Metodologias Ágeis?""")
+/D2 O que são Metodologias Ágeis?
+
+/D3 O que é um Sprint?
+
+
+""")
 
 bot.polling() # MANTÉM O BOT SEMPRE ATIVO E RETORNA A CONVERSA DO USUÁRIO.
