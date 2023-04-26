@@ -1,0 +1,3 @@
+Scrum funciona somente para projetos pequenos?
+
+O Scrum funciona para projetos de qualquer porte, desde que se dividam as entregas em sprints. Em projetos com sprints paralelos é importante aplicar o Scrum of Scrums.

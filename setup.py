@@ -1,7 +1,11 @@
 import telebot # BIBLIOTECA DO TELEGRAM
+import os
 from telebot import util
-BOT_TOKEN = "5799334689:AAHYCsDa3-Y3e93fnv-dooTWUu2Tb62m6gw" #!TOKEN
-bot = telebot.TeleBot(BOT_TOKEN) # CRIA E INICIALIZA O BOT.
+from dotenv import load_dotenv
+
+load_dotenv()
+token = os.environ.get('BOT_TOKEN') #!TOKEN
+bot = telebot.TeleBot(token) # CRIA E INICIALIZA O BOT.
 
 
 # EXEMPLO DE FUNÇÃO A PARTIR DE UM COMANDO EXECUTADO
@@ -23,8 +27,31 @@ def D2 (mensagem):
         bot.send_message(mensagem.chat.id, text)
 
 # TODAS AS NOSSAS FUNÇÕES DEVERÃO SER CRIADAS AQUI EM CIMA ^ #
+@bot.message_handler(commands = ['D3'])
+def D3 (mensagem):
+    large_text = open("./texts/D3.txt", "rb").read()
+    splitted_text = util.split_string(large_text, 3000)
+    print(splitted_text)
+    for text in splitted_text:
+        bot.send_message(mensagem.chat.id, text)
 
 
+@bot.message_handler(commands = ['D4'])
+def D4 (mensagem):
+    large_text = open("./texts/D4.txt", "rb").read()
+    splitted_text = util.split_string(large_text, 3000)
+    print(splitted_text)
+    for text in splitted_text:
+        bot.send_message(mensagem.chat.id, text)
+
+
+@bot.message_handler(commands = ['D5'])
+def D5 (mensagem):
+    large_text = open("./texts/D5.txt", "rb").read()
+    splitted_text = util.split_string(large_text, 3000)
+    print(splitted_text)
+    for text in splitted_text:
+        bot.send_message(mensagem.chat.id, text)
 # ----------------------------------------------------------------- #
 
 # FUNÇÃO QUE VERIFICA SE O USUÁRIO ENVIOU A MENSAGEM CORRETA E TRANSFERE PARA A FUNÇÃO DE RESPOSTA.
@@ -40,6 +67,15 @@ def responder(mensagem):
                            
 /D1 O que é SCRUM?
 
-/D2 O que são Metodologias Ágeis?""")
+/D2 O que são Metodologias Ágeis?
+
+/D3 Scrum funciona somente para projetos pequenos?
+
+/D4 Como gerenciar o prazo no Scrum?
+
+/D5 Como estimar o custo de um projeto Scrum?
+
+
+""")
 
 bot.polling() # MANTÉM O BOT SEMPRE ATIVO E RETORNA A CONVERSA DO USUÁRIO.

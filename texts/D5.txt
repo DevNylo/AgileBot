@@ -1,0 +1,4 @@
+Como estimar o custo de um projeto Scrum?
+
+O custo de um projeto geralmente é uma composição de horas e aquisições. Estimam-se os custos das aquisições através de orçamentos, estima-se o total de horas e multiplica-se por um fator de custo da empresa.No caso da estimativa de horas, existem métodos bastante utilizados no mercado, como: Opinião de especialistas, Pert, Estimativa análoga, paramétrica e planning poker. Além dos métodos especificos para a área de software como: linhas de código, pontos de função e pontos por casos de uso.
+
