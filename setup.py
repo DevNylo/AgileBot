@@ -69,7 +69,7 @@ def responder(mensagem):
 
 /D2 O que são Metodologias Ágeis?
 
-/D3 Scrum funciona somente para projetos pequenos?
+/D3 O que é um Sprint?
 
 /D4 Como gerenciar o prazo no Scrum?
 
