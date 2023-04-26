@@ -1,0 +1,3 @@
+O que é um Sprint?
+    
+Sprint, no framework Scrum, é um período de tempo limitado a um mês ou menos, no qual uma versão incremental e usável de um produto é desenvolvida.

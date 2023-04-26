@@ -1,0 +1,3 @@
+Como gerenciar o prazo no Scrum?
+
+A partir de uma lista de requisitos priorizados, geram-se sprints, que são blocos de tempo (time boxes) que os implementam. Desse modo pode-se planejar e acompanhar o prazo do projeto. Ex: Se existem 10 sprints de 1 mês, o projeto levará em torno de 10 meses para ser completado. Se houver alterações de requisitos que impliquem em aumento ou redução dos sprints basta projetar o impacto até o final do projeto.
