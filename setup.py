@@ -8,7 +8,7 @@ token = os.environ.get('BOT_TOKEN') #!TOKEN
 bot = telebot.TeleBot(token) # CRIA E INICIALIZA O BOT.
 
 
-# EXEMPLO DE FUNÇÃO A PARTIR DE UM COMANDO EXECUTADO
+# ESPAÇO PARA FUNÇÕES #
 
 @bot.message_handler(commands = ['D1'])
 def D1 (mensagem):
@@ -58,10 +58,8 @@ def D5 (mensagem):
 def verificar(mensagem):
         return True
 
-# DECORATOR QUE VAI AGIR A PARTIR DE UMA AÇÃO DO USUÁRIO,
-# ELE PEGA A INFORMAÇÃO DO POLLING E DIZ QUANDO ELA SERÁ
-# EXECUTADA A PARTIR DE UMA LISTA DE COMANDO.
-@bot.message_handler(func=verificar) # DECORATOR QUE ATIVA A PARTIR DA RESPOSTA DA FUNÇÃO "VERIFICAR"
+# DECORATOR QUE VAI AGIR A PARTIR DE UMA AÇÃO DO USUÁRIO, ELE PEGA A INFORMAÇÃO DO POLLING E DIZ QUANDO ELA SERÁ EXECUTADA A PARTIR DE UMA LISTA DE COMANDO.
+@bot.message_handler(func=verificar)
 def responder(mensagem):
     bot.reply_to(mensagem, """Olá, estou aqui para te ajudar, selecione a opção relacionada a sua dúvida:"
                            
