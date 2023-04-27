@@ -54,7 +54,7 @@ def D5 (mensagem):
         bot.send_message(mensagem.chat.id, text)
 
 
-## 16 ##
+## 16 EM DIANTE ##
 @bot.message_handler(commands = ['D16'])
 def D16 (mensagem):
     large_text = open("./texts/D16.txt", "rb").read()
