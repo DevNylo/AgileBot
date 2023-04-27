@@ -85,6 +85,7 @@ def responder(mensagem):
 
 /D5 Como estimar o custo de um projeto Scrum?
 
+/D16 Quais são os artefatos do Scrum?
 
 """)
 
