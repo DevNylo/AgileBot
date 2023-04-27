@@ -1,0 +1,4 @@
+O que é o Product Backlog?
+
+O Product Backlog é uma lista ordenada de todos os itens que precisam ser desenvolvidos em um produto,
+com as suas respectivas prioridades e descrições. É uma ferramenta fundamental do Scrum para a gestão do projeto.

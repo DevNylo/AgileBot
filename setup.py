@@ -63,6 +63,14 @@ def D16 (mensagem):
     for text in splitted_text:
         bot.send_message(mensagem.chat.id, text)
 
+@bot.message_handler(commands = ['D17'])
+def D17 (mensagem):
+    large_text = open("./texts/D17.txt", "rb").read()
+    splitted_text = util.split_string(large_text, 3000)
+    print(splitted_text)
+    for text in splitted_text:
+        bot.send_message(mensagem.chat.id, text)
+
 
 # ----------------------------------------------------------------- #
 
@@ -87,6 +95,7 @@ def responder(mensagem):
 
 /D16 Quais são os artefatos do Scrum?
 
+/D17 O que é o Product Backlog?
 """)
 
 bot.polling() # MANTÉM O BOT SEMPRE ATIVO E RETORNA A CONVERSA DO USUÁRIO.
