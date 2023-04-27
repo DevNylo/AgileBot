@@ -105,6 +105,8 @@ def responder(mensagem):
 /D16 Quais são os artefatos do Scrum?
 
 /D17 O que é o Product Backlog?
+
+/D18 O que é o Sprint Backlog?
 """)
 
 bot.polling() # MANTÉM O BOT SEMPRE ATIVO E RETORNA A CONVERSA DO USUÁRIO.
