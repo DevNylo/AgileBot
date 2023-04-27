@@ -1,0 +1,3 @@
+Quais são os artefatos do Scrum?
+
+Os três artefatos principais do Scrum são o Product Backlog, o Sprint Backlog e o Incremento.
