@@ -72,6 +72,15 @@ def D17 (mensagem):
         bot.send_message(mensagem.chat.id, text)
 
 
+@bot.message_handler(commands=['D18'])
+def D18(mensagem):
+    large_text = open("./texts/D18.txt", "rb").read()
+    splitted_text = util.split_string(large_text, 3000)
+    print(splitted_text)
+    for text in splitted_text:
+        bot.send_message(mensagem.chat.id, text)
+
+
 # ----------------------------------------------------------------- #
 
 # FUNÇÃO QUE VERIFICA SE O USUÁRIO ENVIOU A MENSAGEM CORRETA E TRANSFERE PARA A FUNÇÃO DE RESPOSTA.
