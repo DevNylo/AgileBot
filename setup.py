@@ -80,6 +80,13 @@ def D18(mensagem):
     for text in splitted_text:
         bot.send_message(mensagem.chat.id, text)
 
+@bot.message_handler(commands=['D19'])
+def D19(mensagem):
+    large_text = open("./texts/D19.txt", "rb").read()
+    splitted_text = util.split_string(large_text, 3000)
+    print(splitted_text)
+    for text in splitted_text:
+        bot.send_message(mensagem.chat.id, text)
 
 # ----------------------------------------------------------------- #
 
@@ -107,6 +114,10 @@ def responder(mensagem):
 /D17 O que é o Product Backlog?
 
 /D18 O que é o Sprint Backlog?
+
+/D19 Qual é a duração típica de um sprint?
+
+
 """)
 
 bot.polling() # MANTÉM O BOT SEMPRE ATIVO E RETORNA A CONVERSA DO USUÁRIO.

@@ -1,0 +1,4 @@
+O que é o Sprint Backlog?
+
+O Sprint Backlog é uma lista de todas as tarefas que a equipe de desenvolvimento deve realizar durante o sprint,
+ com o objetivo de cumprir os itens selecionados no Product Backlog para o incremento.

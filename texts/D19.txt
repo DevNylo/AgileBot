@@ -1,0 +1,4 @@
+ Qual é a duração típica de um sprint?
+
+A duração típica de um sprint é de duas a quatro semanas, com duas semanas sendo a mais comum. O objetivo é ter um período
+curto o suficiente para manter o ritmo da equipe e permitir uma adaptação rápida ao feedback do cliente.
