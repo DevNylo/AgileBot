@@ -144,6 +144,15 @@ def D26(mensagem):
     for text in splitted_text:
         bot.send_message(mensagem.chat.id, text)
 
+@bot.message_handler(commands=['D27'])
+def D27(mensagem):
+    large_text = open("./texts/D27.txt", "rb").read()
+    splitted_text = util.split_string(large_text, 3000)
+    print(splitted_text)
+    for text in splitted_text:
+        bot.send_message(mensagem.chat.id, text)
+
+
 
 # ----------------------------------------------------------------- #
 
@@ -187,6 +196,8 @@ def responder(mensagem):
 /D25 Qual é o papel do Product Owner em um Sprint?
 
 /D26 Qual é o papel do Scrum Master em um Sprint?
+
+/D27 O que é uma história de usuário?
 """)
 
 bot.polling() # MANTÉM O BOT SEMPRE ATIVO E RETORNA A CONVERSA DO USUÁRIO.

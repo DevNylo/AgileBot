@@ -1,0 +1,3 @@
+O que é uma história de usuário?
+
+Uma história de usuário é uma descrição simples e concisa de uma funcionalidade ou recurso desejado do ponto de vista do usuário final. As histórias de usuário são escritas em linguagem natural e são geralmente usadas em metodologias ágeis de desenvolvimento de software, como o Scrum, para definir as necessidades do usuário e orientar o desenvolvimento de um produto.
