@@ -88,6 +88,14 @@ def D19(mensagem):
     for text in splitted_text:
         bot.send_message(mensagem.chat.id, text)
 
+@bot.message_handler(commands=['D20'])
+def D20(mensagem):
+    large_text = open("./texts/D20.txt", "rb").read()
+    splitted_text = util.split_string(large_text, 3000)
+    print(splitted_text)
+    for text in splitted_text:
+        bot.send_message(mensagem.chat.id, text)
+
 # ----------------------------------------------------------------- #
 
 # FUNÇÃO QUE VERIFICA SE O USUÁRIO ENVIOU A MENSAGEM CORRETA E TRANSFERE PARA A FUNÇÃO DE RESPOSTA.
@@ -117,7 +125,7 @@ def responder(mensagem):
 
 /D19 Qual é a duração típica de um sprint?
 
-
+/D20 Como a abordagem ágil pode ajudar na gestão de projetos?
 """)
 
 bot.polling() # MANTÉM O BOT SEMPRE ATIVO E RETORNA A CONVERSA DO USUÁRIO.
