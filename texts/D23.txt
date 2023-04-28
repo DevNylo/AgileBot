@@ -1,0 +1,3 @@
+Qual o papel do time de desenvolvimento?
+
+O time de desenvolvimento é responsável por realizar o trabalho necessário para entregar um Incremento do produto em um Sprint. Eles são autônomos e auto-organizados, possuindo as habilidades necessárias para criar um produto de qualidade e colaborando em conjunto para alcançar os objetivos do projeto.

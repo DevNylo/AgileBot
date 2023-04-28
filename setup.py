@@ -112,6 +112,13 @@ def D22(mensagem):
     for text in splitted_text:
         bot.send_message(mensagem.chat.id, text)
 
+@bot.message_handler(commands=['D23'])
+def D23(mensagem):
+    large_text = open("./texts/D23.txt", "rb").read()
+    splitted_text = util.split_string(large_text, 3000)
+    print(splitted_text)
+    for text in splitted_text:
+        bot.send_message(mensagem.chat.id, text)
 
 # ----------------------------------------------------------------- #
 
@@ -147,6 +154,8 @@ def responder(mensagem):
 /D21 Como o Scrum pode ajudar na gestão de projetos?
 
 /D22 Quais são os princípios do manifesto ágil?
+
+/D23 Qual o papel do time de desenvolvimento?
 
 """)
 
