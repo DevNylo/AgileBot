@@ -128,6 +128,15 @@ def D24(mensagem):
     for text in splitted_text:
         bot.send_message(mensagem.chat.id, text)
 
+@bot.message_handler(commands=['D25'])
+def D25(mensagem):
+    large_text = open("./texts/D25.txt", "rb").read()
+    splitted_text = util.split_string(large_text, 3000)
+    print(splitted_text)
+    for text in splitted_text:
+        bot.send_message(mensagem.chat.id, text)
+
+
 # ----------------------------------------------------------------- #
 
 # FUNÇÃO QUE VERIFICA SE O USUÁRIO ENVIOU A MENSAGEM CORRETA E TRANSFERE PARA A FUNÇÃO DE RESPOSTA.
@@ -167,7 +176,7 @@ def responder(mensagem):
 
 /D24 Como um Sprint é planejado e organizado?
 
-
+/D25 Qual é o papel do Product Owner em um Sprint?
 """)
 
 bot.polling() # MANTÉM O BOT SEMPRE ATIVO E RETORNA A CONVERSA DO USUÁRIO.

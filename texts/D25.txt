@@ -1,0 +1,3 @@
+Qual é o papel do Product Owner em um Sprint?
+
+O Product Owner é responsável por gerenciar o Product Backlog e definir as prioridades dos itens que devem ser entregues. Durante o Sprint, ele deve estar disponível para esclarecer dúvidas e fornecer feedback contínuo para a equipe de desenvolvimento.
