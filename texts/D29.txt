@@ -1,0 +1,3 @@
+Olá, este carinha é o Agile!
+
+O Agile é um bot que pode te ajudar com suas dúvidas sobre metodologias ágeis, em questão o SCRUM, então fique à vontade para tirar as suas dúvidas com base em dezenas de perguntas comuns que alguém que esteja iniciando nesse mundo ágio possa ter, tenho certeza que ele poderá te ajudar. O Agile ainda está em fase de desenvolvimento!

@@ -160,6 +160,15 @@ def D28(mensagem):
     for text in splitted_text:
         bot.send_message(mensagem.chat.id, text)
 
+@bot.message_handler(commands=['D29'])
+def D29(mensagem):
+    large_text = open("./texts/D29.txt", "rb").read()
+    splitted_text = util.split_string(large_text, 3000)
+    print(splitted_text)
+    for text in splitted_text:
+        bot.send_message(mensagem.chat.id, text)
+
+
 
 
 # ----------------------------------------------------------------- #
@@ -208,6 +217,9 @@ def responder(mensagem):
 /D27 O que é uma história de usuário?
 
 /D28 Como as histórias de usuário são priorizadas?
+
+/D29 Sobre o AgileBot.
+
 """)
 
 bot.polling() # MANTÉM O BOT SEMPRE ATIVO E RETORNA A CONVERSA DO USUÁRIO.
