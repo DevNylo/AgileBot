@@ -1,0 +1,3 @@
+Como um Sprint é planejado e organizado?
+
+Um Sprint é planejado e organizado em uma reunião de planejamento do Sprint, onde o Product Owner apresenta o objetivo e a lista de itens do Product Backlog que serão incluídos no Sprint. O time de desenvolvimento, então, define as tarefas necessárias para completar os itens selecionados e cria o Sprint Backlog.

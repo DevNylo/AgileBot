@@ -120,6 +120,14 @@ def D23(mensagem):
     for text in splitted_text:
         bot.send_message(mensagem.chat.id, text)
 
+@bot.message_handler(commands=['D24'])
+def D24(mensagem):
+    large_text = open("./texts/D24.txt", "rb").read()
+    splitted_text = util.split_string(large_text, 3000)
+    print(splitted_text)
+    for text in splitted_text:
+        bot.send_message(mensagem.chat.id, text)
+
 # ----------------------------------------------------------------- #
 
 # FUNÇÃO QUE VERIFICA SE O USUÁRIO ENVIOU A MENSAGEM CORRETA E TRANSFERE PARA A FUNÇÃO DE RESPOSTA.
@@ -156,6 +164,9 @@ def responder(mensagem):
 /D22 Quais são os princípios do manifesto ágil?
 
 /D23 Qual o papel do time de desenvolvimento?
+
+/D24 Como um Sprint é planejado e organizado?
+
 
 """)
 
