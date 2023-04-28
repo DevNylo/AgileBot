@@ -1,0 +1,3 @@
+ Quais são os princípios do manifesto ágil?
+
+Os princípios do manifesto ágil são: indivíduos e interações acima de processos e ferramentas; software em funcionamento acima de documentação abrangente; colaboração com o cliente acima de negociação de contratos; e resposta rápida a mudanças acima de seguir um plano.

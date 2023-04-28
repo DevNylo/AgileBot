@@ -104,6 +104,15 @@ def D21(mensagem):
     for text in splitted_text:
         bot.send_message(mensagem.chat.id, text)
 
+@bot.message_handler(commands=['D22'])
+def D22(mensagem):
+    large_text = open("./texts/D22.txt", "rb").read()
+    splitted_text = util.split_string(large_text, 3000)
+    print(splitted_text)
+    for text in splitted_text:
+        bot.send_message(mensagem.chat.id, text)
+
+
 # ----------------------------------------------------------------- #
 
 # FUNÇÃO QUE VERIFICA SE O USUÁRIO ENVIOU A MENSAGEM CORRETA E TRANSFERE PARA A FUNÇÃO DE RESPOSTA.
@@ -137,6 +146,7 @@ def responder(mensagem):
 
 /D21 Como o Scrum pode ajudar na gestão de projetos?
 
+/D22 Quais são os princípios do manifesto ágil?
 
 """)
 
