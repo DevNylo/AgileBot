@@ -1,0 +1,2 @@
+Qual é o papel do Scrum Master em um Sprint?
+O Scrum Master é responsável por garantir que a equipe de desenvolvimento esteja seguindo os princípios e valores do Scrum. Durante um Sprint, o Scrum Master ajuda a equipe a remover obstáculos, facilita as reuniões diárias, acompanha o progresso do Sprint e ajuda a equipe a se concentrar no objetivo do Sprint.
