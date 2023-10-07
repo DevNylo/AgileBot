@@ -1,8 +1,8 @@
-> POR MOTIVOS DE SEGURANÇA O TOKEN ESTÁ INDISPONÍVEL.
+> POR MOTIVOS DE SEGURANÇA O TOKEN ESTÁ INDISPONÍVEL, SOLICTE AOS COLABORADORES.
 
 # AgileBot
 Bot para o telegram que está sendo mantido e gerênciado pelo nosso time!
-
+  
 ## Biblioteca
 
 > https://pypi.org/project/pyTelegramBotAPI/#a-simple-echo-bot
@@ -14,6 +14,19 @@ Bot para o telegram que está sendo mantido e gerênciado pelo nosso time!
   - Qualquer IDE que possua suporte a Python, recomendo a Pycharm Community
 
 ## Como usar
+
+1 - Faça um fork do repositorio.
+
+2 - No git bash adicione a seguinte linha de comando:
+
+    git remote add agilebot {url desse repositorio}
+
+3 - Toda vez que for desenvolver, antes execute a linha de comando para soncronizar o repositorio com o seu.
+
+    git pull agilebot main
+
+4 - Faça requisições apenas por pull request.
+
 
   - Façam Fork, ou apenas faça um clone por HTTP e trabalhem diretamento no repositório, vocês possuem permissão para fazer commit e push.
 
