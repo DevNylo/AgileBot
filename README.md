@@ -1,4 +1,4 @@
-> POR MOTIVOS DE SEGURANÇA O TOKEN ESTÁ INDISPONÍVEL, SOLICTE AOS COLABORADORES.
+> POR MOTIVOS DE SEGURANÇA O TOKEN ESTÁ INDISPONÍVEL, SOLICITE AOS COLABORADORES.
 
 # AgileBot
 Bot para o telegram que está sendo mantido e gerênciado pelo nosso time!
@@ -21,7 +21,7 @@ Bot para o telegram que está sendo mantido e gerênciado pelo nosso time!
 
     git remote add agilebot {url desse repositorio}
 
-3 - Toda vez que for desenvolver, antes execute a linha de comando para soncronizar o repositorio com o seu.
+3 - Toda vez que for desenvolver, antes execute a linha de comando para sincronizar o repositorio com o seu.
 
     git pull agilebot main
 
